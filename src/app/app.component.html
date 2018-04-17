@@ -1,7 +1,73 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    PRODUCTS MANAGER
-  </h1>
-  <app-products></app-products>
-</div>
+
+<div class="container-fluid">
+    <!--Main Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark default-color">
+            <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Opinions</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    </header>
+    <br><br>
+    <!--Main Navigation-->
+    <div class="row justify-content-center">
+        <div class="col-md-6 align-self-center ">
+            <!-- Login form -->
+            <form>
+                <p class="h5 text-center mb-4">Sign in</p>
+            
+                <div class="md-form">
+                    <i class="fa fa-envelope prefix grey-text"></i>
+                    <input type="text" id="defaultForm-email" class="form-control" mdbActive>
+                    <label for="defaultForm-email">Your email</label>
+                </div>
+            
+                <div class="md-form">
+                    <i class="fa fa-lock prefix grey-text"></i>
+                    <input type="password" id="defaultForm-pass" class="form-control" mdbActive>
+                    <label for="defaultForm-pass">Your password</label>
+                </div>
+            
+                <div class="text-center">
+                    <button class="btn btn-default waves-light" mdbRippleRadius>Login</button>
+                </div>
+            </form>
+            <!-- Login form -->                                
+        </div>
+    </div> <!-- end col -->                                
+</div> <!-- end row -->    
+
+<app-tasks></app-tasks>
+<app-add-tasks></app-add-tasks>
+
+
+                 

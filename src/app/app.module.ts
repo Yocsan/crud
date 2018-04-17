@@ -3,13 +3,15 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './products/products.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { AddTasksComponent } from './components/add-tasks/add-tasks.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsComponent
+    TasksComponent,
+    AddTasksComponent
   ],
   imports: [
     BrowserModule,
